@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ScanSAQ",
+    "slug": "ScanSAQ",
+    "version": "1.3.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hotdog101.ScanSAQNewver"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hotdog101.ScanSAQNewver"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e5a66384-a885-4c1a-b99c-2f0139fc238e"
+      }
+    }
+  }
+}
